@@ -1,0 +1,32 @@
+# To create a branch
+git branch <branch-name>
+
+# To switch branch
+git switch <branch-name>
+
+# To add files
+1. For all files
+git add . 
+
+2. For single/double files
+git add <filename>
+
+# To commit changes
+git commit -m "<message>"
+
+
+# To add remote origin
+# git-repository-url = https://github.com/HarshSingh-01/git-tutorial.git
+git remote add origin <git-repository-url>
+
+# To push
+git push
+
+# To rollback commit
+1. From last commit
+git checkout .
+
+2. From specific commit
+git log
+
+git checkout <commit-id>
