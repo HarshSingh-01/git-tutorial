@@ -14,7 +14,6 @@ git add <filename>
 # To commit changes
 git commit -m "<message>"
 
-
 # To add remote origin
 # git-repository-url = https://github.com/HarshSingh-01/git-tutorial.git
 git remote add origin <git-repository-url>
